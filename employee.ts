@@ -12,7 +12,7 @@ export class Employee {
     }
 
     // Added modify function for employees  
-    modify(): void {
+    modifyEmployee(): void {
         this.employees.splice(0, 1, { _id: 1, name: "Parik Sheetle" });
         // this employee can't be modified
     }
